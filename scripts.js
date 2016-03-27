@@ -51,10 +51,68 @@ alert ("Dado dice: " + dado);
 console.log("Fin de Programa");*/
 
 
-console.log("Inicio de Programa");
+/*console.log("Inicio de Programa");
 var num1  = prompt("hola usuario, ingrese un numero!");
 var dado  = Math.floor(Math.random()*num1)+1;
 alert ("Dado dice: " + dado);
-console.log("Fin de Programa");
+console.log("Fin de Programa");*/
 
+
+/*console.log("Inicio de Programa");
+document.write ("<h1>Juego de adivinar numero!!! !!!</h1>");
+
+var num  = prompt("hola usuario, ingrese un numero de 1 al 10!");
+var num1  = Math.floor(Math.random()*10)+1;
+
+var adivina = 6;
+
+if (num1 == adivina) {
+		document.write ("<h1>hola usuario la respuesta es correcta y el numero es 6 !!!</h1>");
+        
+} else {
+        document.write ("<h1>hola usuario la respuesta es incorrecta  fallo!!! !!!</h1>");
+
+}
+
+console.log("Fin de Programa");*/
+/*console.log("Inicio de Programa");
+document.write ("<h1>Juego de adivinar numero!!! !!!</h1>");
+var num  = prompt("hola usuario, ingrese un numero de 1 al 10!");
+var num1  = Math.floor(Math.random()*10)+1;
+alert ("Dado dice: " + num1);
+
+if (num == num1) {
+		document.write ("<h1>hola usuario la respuesta es correcta!!!</h1>");
+        
+} else if (num <= num1) {
+        document.write ("<h1>hola usuario la respuesta es mayor !! !!!</h1>");
+        var otro  = prompt("ingrese OTRO  un numero de 1 al 10!");
+		
+		if (num == otro) {
+        document.write ("<h1>hola usuario la respuesta es correcta !! !!!</h1>");
+
+        }
+
+		else if (num <= otro) {
+        document.write ("<h1>hola usuario PERDISTE !! !!!</h1>");
+
+        }
+    }
+
+else  {
+        document.write ("<h1>hola usuario la respuesta es menor!!! !!!</h1>");
+		var num  = prompt("hola usuario, ingrese un numero de 1 al 10!");
+
+}
+console.log("Fin de Programa");*/
+
+function tiraDados(){
+
+	var dado = Math.floor(Math.random()*6)+1;
+	alert(dado);
+}
+	alert("Tiramos 3 dados: ")	;
+	tiraDados();
+	tiraDados();
+	tiraDados();
 
