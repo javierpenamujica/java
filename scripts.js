@@ -45,7 +45,16 @@ console.log("Fin de Programa");*/
 
 
 
-console.log("Inicio de Programa");
+/*console.log("Inicio de Programa");
 var dado  = Math.floor(Math.random()*6)+1;
 alert ("Dado dice: " + dado);
+console.log("Fin de Programa");*/
+
+
+console.log("Inicio de Programa");
+var num1  = prompt("hola usuario, ingrese un numero!");
+var dado  = Math.floor(Math.random()*num1)+1;
+alert ("Dado dice: " + dado);
 console.log("Fin de Programa");
+
+
